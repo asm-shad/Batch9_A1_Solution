@@ -57,3 +57,41 @@ body {
     border: 2px solid rebeccapurple;
     margin-top: 90px;
 }
+
+section.second-section-container .text-area {
+    text-align: center;
+}
+
+section.second-section-container .text-area h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+section.second-section-container .text-area p {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+section.second-section-container .text-area h3 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+section.second-section-container .image-area {
+    width: 802.9px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+section.second-section-container .image-area img {
+    width: 100%;
+    height: 100%;
+}
