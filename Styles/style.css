@@ -54,7 +54,6 @@ body {
 .second-section-container {
     width: 802.9px;
     height: 806px;
-    border: 2px solid rebeccapurple;
     margin-top: 90px;
 }
 
@@ -94,4 +93,172 @@ section.second-section-container .image-area {
 section.second-section-container .image-area img {
     width: 100%;
     height: 100%;
+}
+
+.midnight-party-container {
+    width: 1320px;
+    height: 600px;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    background-color: rgba(0, 0 ,0 , 0.5);
+    background-image: url(../Images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    margin-top: 90px;
+}
+
+.midnight .midnight-party-container .leftside-content {
+    width: 60%;
+    height: 600PX;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.midnight .midnight-party-container .rightside-content {
+    width: 40%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midnight .midnight-party-container .leftside-content h1 {
+    width: 642px;
+    height: 176px;
+    font-size: 64px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+
+}
+
+.midnight .midnight-party-container .leftside-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+.midnight .midnight-party-container .leftside-content span {
+    width: 103px;
+    height: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.venue {
+    width: 1320px;
+    height: 482px;
+    margin-top: 90px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.venue .venue-container .text-area {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.venue .venue-container .text-area span {
+    color: rgb(255, 0, 0);
+}
+.venue .venue-container .btn {
+    width: 167px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+
+.holiday-container {
+    width: 1320px;
+    height: 986.07px;
+    margin-top: 90px;
+    position: relative;
+}
+
+.holiday-container .holiday-text {
+    text-align: center;
+    width: 1068px;
+    height: 260px;
+}
+
+.holiday-container .holiday-text h5 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.holiday-container .holiday-text h1 {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.holiday-container .holiday-text h1 span {
+    color: rgb(255, 0, 0);
+}
+
+.holiday-container .holiday-text p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.holiday-container .solid-color {
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    position: absolute;
+    top: 77%;
+}
+
+.holiday-container .giftbox {
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    margin-left: 0;
+    display: flex;
+}
+
+.holiday-container .mother {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.holiday-container .mother .girl-container {
+    width: 429px;
+    height: 433px;
+    position: relative;
+    left: 5.5%;
+}
+
+.holiday-container .mother .discount {
+    position: absolute;
+    bottom: 30%;
+    left: 54%;
 }
